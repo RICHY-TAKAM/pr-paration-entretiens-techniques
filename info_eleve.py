@@ -10,4 +10,6 @@ def obtenir_informations_eleve():
 # Exemple d'utilisation
 eleve_infos = obtenir_informations_eleve()
 print("\nInformations sur l'élève :")
+for cle, valeur in eleve_infos.items():
+    print(f"{cle.capitalize()} : {valeur}")
 

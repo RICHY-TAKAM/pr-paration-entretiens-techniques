@@ -20,5 +20,5 @@ def get_vowels_numbers(word):
 
 word = input("Entrer un mot")
 vowels_count = get_vowels_numbers(word)
-print("Il y a", vowels_count, "voyelles dans le mot", word)
+print("Il y a", vowels_count, "voyelles dans le mot", word) 
 
